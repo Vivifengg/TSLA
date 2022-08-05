@@ -1,0 +1,11 @@
+We aimed at analyzing the market risk of Tesla.
+As for the market risk, we choose the 90%VaR to represent the risk. Other variables are all factors.
+First of all, we downloaded the daily stock price for Telsa and calculated the 90% VaR based on daily returns.
+Next, we generated the "market cap", "Enterprise Value", "Trailing P/E", "Forward P/E",
+"PEG Ratio", "Price/Sales", "Price/Book", "Enterprise Value/Revenue" and "Enterprise Value/EBITDA".
+The data we collected invovles 7 months from January to July in 2022.
+(the smallest time interval we can found for the data is monthly-based)
+
+
+data source: 
+https://finance.yahoo.com/quote/TSLA/history?period1=1501804800&period2=1659571200&interval=1d&filter=history&frequency=1d&includeAdjustedClose=true
